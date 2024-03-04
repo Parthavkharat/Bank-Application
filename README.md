@@ -1,3 +1,4 @@
+This is a simple Bank Application created using html,css,jsp and mysql 
 To setup this project to database create a database Database Name:-bank then create a table Table Name:-users to create the tabel users use following SQl queries to executive it 
 
 CREATE TABLE users (
