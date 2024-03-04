@@ -12,15 +12,3 @@ CREATE TABLE users (
     account_number VARCHAR(12)
 );
 
-+----------------+---------------+------+-----+---------+----------------+
-| Field          | Type          | Null | Key | Default | Extra          |
-+----------------+---------------+------+-----+---------+----------------+
-| id             | int           | NO   | PRI | NULL    | auto_increment |
-| fullname       | varchar(100)  | NO   |     | NULL    |                |
-| username       | varchar(50)   | NO   | UNI | NULL    |                |
-| password       | varchar(50)   | NO   |     | NULL    |                |
-| contact        | varchar(20)   | NO   |     | NULL    |                |
-| address        | varchar(255)  | NO   |     | NULL    |                |
-| balance        | decimal(10,2) | YES  |     | 0.00    |                |
-| account_number | varchar(12)   | YES  |     | NULL    |                |
-+----------------+---------------+------+-----+---------+----------------+  
